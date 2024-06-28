@@ -1,3 +1,5 @@
+import { Button } from "flowbite-react";
+
 export default function About() {
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -8,10 +10,11 @@ export default function About() {
           </h1>
           <div className="text-md text-gray-500 flex flex-col gap-6">
             <p>
-              Welcome to Tran Tuong's Blog! This blog was created by trantuongdeptrai
-              as a personal project to share his thoughts and ideas with the
-              world. Trantuongdeptrai is a passionate developer who loves to write about
-              technology, coding, and everything in between.
+              Welcome to Tran Tuong's Blog! This blog was created by
+              trantuongdeptrai as a personal project to share his thoughts and
+              ideas with the world. Trantuongdeptrai is a passionate developer
+              who loves to write about technology, coding, and everything in
+              between.
             </p>
 
             <p>
@@ -27,6 +30,18 @@ export default function About() {
               them as well. We believe that a community of learners can help
               each other grow and improve.
             </p>
+            <a
+              href="/search"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                gradientDuoTone="purpleToPink"
+                className="rounded-2xl mt-3 w-[100%]"
+              >
+                Explore now 🫣
+              </Button>
+            </a>
           </div>
         </div>
       </div>
